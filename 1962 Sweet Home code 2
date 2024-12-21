@@ -5552,7 +5552,7 @@ if (ans == 4395) {
         e.candidate_json[2].fields.first_name = "Bull"
         e.candidate_json[2].fields.last_name = "Connor"
         campaignTrail_temp.running_mate_image_url = 'https://i.imgur.com/2mOdKA4.png';
-        campaignTrail_temp.candidate_image_url = 'https://i.imgur.com/7iz1rAG.png'
+        campaignTrail_temp.candidate_image_url = 'https://i.imgur.com/TM2iELd.png'
         ctsAchievement("Does your conscience bother you?");
     }
 
