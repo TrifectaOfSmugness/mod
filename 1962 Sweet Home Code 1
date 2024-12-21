@@ -640,3 +640,10 @@ campaignTrail_temp.achievements = {
       "cannotBeCheated" : true
   }
 }
+
+campaignTrail_temp.modBoxTheme = {
+    "header_color": "#565d8f",
+    "header_text_color": "#fbfbfb",
+    "main_color" : "#eef0f6",
+    "secondary_color": "#565d8f"
+}
