@@ -5609,6 +5609,8 @@ if (ans == 4404 || ans == 15509 || ans == 15511 || ans == 15529 || ans == 15533 
 if (ans == 4518) {
         campaignTrail_temp.question_number=17;
         switcheroo4();
+        e.candidate_json[2].fields.last_name = "Dixiecrats"
+        e.candidate_json[2].fields.first_name = ""
     }   
 
 if ((ans == 4489) && (KlanAggravation < 2)) {
