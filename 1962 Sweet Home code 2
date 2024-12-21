@@ -5321,7 +5321,7 @@ function switcheroo2() {
 function switcheroo3() {
     e.election_json[0].fields.advisor_url = 'https://i.imgur.com/EoNXsm5.png';
     campaignTrail_temp.running_mate_image_url = 'https://i.imgur.com/2mOdKA4.png';
-    campaignTrail_temp.candidate_image_url = 'https://i.imgur.com/7iz1rAG.png';
+    campaignTrail_temp.candidate_image_url = 'https://i.imgur.com/lg8kxiX.png';
     campaignTrail_temp.candidate_last_name = 'Wallace';   
     nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#565d8f";
     nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#eef0f6";
@@ -5552,7 +5552,7 @@ if (ans == 4395) {
         e.candidate_json[2].fields.first_name = "Bull"
         e.candidate_json[2].fields.last_name = "Connor"
         campaignTrail_temp.running_mate_image_url = 'https://i.imgur.com/2mOdKA4.png';
-        campaignTrail_temp.candidate_image_url = 'https://i.imgur.com/TM2iELd.png'
+        campaignTrail_temp.candidate_image_url = 'https://i.imgur.com/lg8kxiX.png'
         ctsAchievement("Does your conscience bother you?");
     }
 
