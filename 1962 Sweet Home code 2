@@ -2936,7 +2936,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 55775,
             "candidate": 152,
             "affected_candidate": 152,
-            "global_multiplier": 1
+            "global_multiplier": 0.5
         }
     },
     {
@@ -5862,7 +5862,7 @@ if (e.player_answers.includes(4379) && aa[0].candidate === 152) {
     e.executable.push([1, (() => { e.image = 'https://i.imgur.com/NvQUc9b.png'; })]);
     }
 // progressive path assassination succeeds
-else if (KlanAggravation > 2 && aa[0].candidate === 152) {
+else if (e.player_answers.includes(15523) && aa[0].candidate === 152) {
     e.pages.push(`<h2>Let there be light</h2><p>George could not see what was in front of him.<br><br>It burned so much.<br><br>He felt the pain.<br><br>The Pain.<br><br>The Screams, they were overwhelming. They had stopped, yet he could hear them again.<br><br>He felt it, in his uniform, screaming as he saw the burned carcasses.<br><br>He felt it, the smell of charred corpses, of dust of broken buildings.<br><br>He screamed, as if he could not stop, as if he had no voice.<br><br>He felt a hold on his arm.<br><br>He had seen her.<br><br>Lurleen?<br><br>Who was that woman? That black woman in front of him?<br><br>Lurleen.<br><br>Would she forgive him for what he had done?<br><br>For endangering her life like this?<br><br>He knew it.<br><br>He was now under the Lord's grace.<br><br>Let there be light.<br><br>And so light shone through.</p>`);
     e.executable.push([0, (() => { e.image = 'https://i.imgur.com/knQAh8y.png'; })]);
     setMusic("https://files.catbox.moe/tpshvh.mp3")
