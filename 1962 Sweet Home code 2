@@ -5936,6 +5936,7 @@ if (document.getElementById("state_info")!=null) {
 overallthing=document.getElementById("state_info").innerHTML;
 overallthing.toString()
 overallthing=overallthing.replace("STATE SUMMARY","COUNTY SUMMARY")
+overallthing=overallthing.replace("Click/hover on a state to view more info.","Click/hover on a county to view more info.")
 document.getElementById("state_info").innerHTML=overallthing
 }
 if (document.getElementById("state_result")!=null) {
